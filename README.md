@@ -5,3 +5,5 @@ The following is a list of notebooks that can be found in this respository, alon
 1) CS260D_Approach_1_UNet_MNIST.ipynb has code for Approach 1 using the U-Net model as the poison generator. The U-Net is modified to have two downsampling layers and two upsampling layers. The models are trained on the MNIST dataset.
 2) CS260D_Approach_1_Oversimplified_UNet.ipynb has code for Approach 1 using a simple 2-convolutional layer poison generator. We refer to this generator as "Oversimplified U-Net".
 3) CS260D_Approach_1_UNet_CIFAR10.ipynb has code for Approach 1 using the modified U-Net model as a poison generator and is tested on the CIFAR-10 dataset.
+4) CS260D_Approach_2_ALPS_MNIST.ipynb has code for approach 2. The idea is to use surrogate model for selecting poison data for training, instead of selecting poison data before training. We refer to this strategy as ambiguous label poisoning strategy which we call ALPS.
+5) CS260D_Approach_2_ALPS_MNIST_Epochs_10.ipynb has code for approach 2 and is trained for 10 epochs instead of 5 epochs in (4).
